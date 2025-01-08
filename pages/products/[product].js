@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { productStyled } from "./productStyled";
+import { productStyled } from "../../styles/productStyled";
 import { useParams } from "next/navigation";
 
 export async function getServerSideProps(context) {
