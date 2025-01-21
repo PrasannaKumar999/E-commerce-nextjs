@@ -107,6 +107,36 @@ a.secondary {
 .footer img {
   flex-shrink: 0;
 }
+.banner{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+
+}
+.container {
+  max-width: 1170px;
+  height: 48px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middleText {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.endText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: right;
+  cursor: pointer;
+}
+.textShopNow{
+  margin-left: 10px;
+  text-decoration: underline;
+}
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -165,4 +195,15 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+
+@media (max-width: 600px) {
+.banner{
+  font-size: 10px;
+}
+.endText{
+  display: none;
+}
+
 }
