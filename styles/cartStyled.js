@@ -7,7 +7,7 @@ export const cartStyles = css`
 		justify-content: space-between;
 		padding: 24px 40px;
 		/* box-shadow: #000000 0px 1px 31px 5px; */
-		box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.05);
+		box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.05);
 		width: 100%;
 	}
 	.cartItemsContainer {
