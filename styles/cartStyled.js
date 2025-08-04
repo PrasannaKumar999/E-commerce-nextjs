@@ -9,11 +9,13 @@ export const cartStyles = css`
 		/* box-shadow: #000000 0px 1px 31px 5px; */
 		box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.05);
 		width: 100%;
+		color: black;
 	}
 	.cartItemsContainer {
 		display: flex;
 		flex-direction: column;
 		gap: 50px;
+		color: black;
 	}
 	.productContainer {
 		display: flex;
@@ -21,6 +23,7 @@ export const cartStyles = css`
 		align-items: center;
 		padding: 24px 40px;
 		box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.05);
+		color: #000;
 	}
 	.cartColumn {
 		flex: 1;
@@ -59,11 +62,13 @@ export const cartStyles = css`
 		width: 30px;
 		border: 1px solid rgb(225, 225, 225);
 		cursor: pointer;
+		color: #000;
 	}
 	.quantity {
 		border: 1px solid rgb(225, 225, 225);
 		padding: 4px 20px;
 		margin: 0px 10px;
+		color: #000;
 	}
 	.ctaButton {
 		border: 1px solid rgb(0, 0, 0, 0.5);
@@ -72,6 +77,7 @@ export const cartStyles = css`
 		margin-top: 30px;
 		cursor: pointer;
 		font-weight: 500;
+		color: #000;
 	}
 	.ctaButtonActive {
 		padding: 16px 48px;
@@ -86,6 +92,7 @@ export const cartStyles = css`
 		display: flex;
 		justify-content: space-between;
 		margin: 80px 0px;
+		color: #000;
 	}
 	.ctaCouponInput {
 		border: 1px solid rgb(0, 0, 0, 0.5);
@@ -115,10 +122,12 @@ export const cartStyles = css`
 	.txtCartEmpty {
 		font-size: 30px;
 		font-weight: 500;
+		color: #000;
 	}
 	.txtCartpickup {
 		font-size: 16px;
 		color: #61a7f4;
 		cursor: pointer;
+		color: #000;
 	}
 `;
