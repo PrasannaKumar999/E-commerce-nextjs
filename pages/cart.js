@@ -81,7 +81,7 @@ const Cart = () => {
 									className="ctaCouponInput"
 								/>
 							</div>
-							<div className="ctaButtonActive">Apply Coupon</div>
+							<div className="ctaButtonActive">Apply Coupo</div>
 						</div>
 						<div className="cartContainer">
 							<div style={{ fontSize: "20px", fontWeight: "500" }}>
